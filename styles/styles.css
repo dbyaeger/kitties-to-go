@@ -5,7 +5,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: rgba(117,191,211,235);
+    color: #27808B;
     padding-right: .5rem;
     padding-left: .5rem;
 }
@@ -25,7 +25,6 @@ a {
     font-weight: 400;
     font-size: 1.5rem;
     margin-top:0rem;
-    margin-right: 44rem;
 }
 
 .banner header {
@@ -81,7 +80,7 @@ footer ul li a {
 }
 
 .quote {
-    color: rgba(117,191,211,235);
+    color: #216A73;
     font-size: large;
 }
 .quote p {
@@ -114,7 +113,7 @@ footer ul li a {
 
 .main h5 {
     margin-top: 3rem;
-    color: rgba(117,191,211,235);
+    color: #27808B;
     font-weight: bold;
     font-size: 1em;
 }
@@ -130,7 +129,7 @@ footer ul li a {
     margin-right: 4rem;
 }
 .left .quote {
-    color: rgba(117,191,211,255);
+    color: #27808B;
     font-size: large;
 }
 .left .quote p {
