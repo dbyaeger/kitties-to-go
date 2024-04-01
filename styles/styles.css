@@ -181,4 +181,11 @@ footer ul li a {
 .main .left .crazy {
     padding-bottom: 20rem;
 }
-
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+.hidden:focus {
+    left: 0;
+}
