@@ -12,6 +12,7 @@ a {
 .banner {
     height: 14rem;
     background-color: #2c9ab7;
+    background: linear-gradient(45deg, #2c9ab7, rgba(58,58,58,235));
     display: flex;
     align-items: center;
     color: white;
