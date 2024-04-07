@@ -57,6 +57,7 @@ footer {
     width: 100%;
     height: 32rem;
     background-image: url('../images/grey-banner-image.jpg');
+    background-color: rgba(58,58,58,235);
     background-size: cover;
     display: flex;
     flex-direction: column;
