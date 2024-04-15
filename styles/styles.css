@@ -29,7 +29,7 @@ a {
 }
 
 .banner header {
-    margin-left: 10rem;
+    margin-left: 2rem;
 } 
 nav {
     background-color: rgba(235,235,235,1);
@@ -39,7 +39,7 @@ nav {
     color: black;
 }
 nav ul {
-    margin-left: 9rem;
+    margin-left: 1rem;
     padding-inline-start:0px;
 }
 nav ul li {
@@ -68,6 +68,8 @@ footer {
 }
 footer p {
     margin-bottom: 0rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 footer img {
     margin-bottom: 3rem;
@@ -132,9 +134,9 @@ footer ul li a {
 }
 
 .left {
-    margin-left: 10rem;
+    margin-left: 2rem;
     width: 41rem;
-    margin-right: 4rem;
+    margin-right: 2rem;
 }
 .left .quote {
     color: #27808B;
@@ -167,6 +169,7 @@ footer ul li a {
     margin-right: 0rem;
     margin-left: 0rem;
     width: 18rem;
+    display: none;
 }
 
 .right a {
@@ -190,25 +193,36 @@ footer ul li a {
 .hidden:focus {
     left: 0;
 }
-.cat-logo {
-    display: block;
-    width: 100%;
-    height: auto;
-}
 
-@media (min-width: 356px) {
-    .cat-logo {
-        width: 356px;
-    }
-}
 .cat-img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-@media (min-width: 200px) {
-    .cat-img {
-        width: 200px;
+@media screen and (min-width: 256px) {
+    footer .cat-img {
+        width: 256px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .right {
+        display: block;
+    }
+    .left {
+        margin-left: 10rem;
+        margin-right: 4rem;
+    }
+    .banner header {
+        margin-left: 10rem;
+    } 
+    nav ul {
+        margin-left: 9rem;
+        padding-inline-start:0px;
+    }
+    footer p {
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
 }
